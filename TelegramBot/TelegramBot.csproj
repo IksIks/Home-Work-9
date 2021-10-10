@@ -137,7 +137,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Constellations.json" />
-    <None Include="iksbot-9tan-8bfc6cdbd2be.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

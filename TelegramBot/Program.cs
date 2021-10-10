@@ -134,7 +134,7 @@ namespace TelegramBot
                 LettersConstellations temp2 = new LettersConstellations(letter, constellations);
                 LettersConstellations.AlphabetConstellations.Add(temp2);
             }
-
+            bot.SendTextMessageAsync(Message.Chat.Id, "ffff");
             bot.OnMessage += BotOnMessage;
             bot.OnCallbackQuery += BotOnCallbackQuery;
             bot.StartReceiving();
